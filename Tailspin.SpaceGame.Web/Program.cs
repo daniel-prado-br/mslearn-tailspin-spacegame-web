@@ -8,6 +8,7 @@ namespace TailSpin.SpaceGame.Web
         public static void Main(string[] args)
         {
             CreateWebHostBuilder(args).Build().Run();
+            //Apenas para criar um novo commit e iniciar a pipeline no DevOps
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
